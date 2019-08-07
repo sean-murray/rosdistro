@@ -1390,6 +1390,11 @@ python-fcn-pip:
     pip:
       depends: [liblapack-dev]
       packages: [fcn]
+python-filterpy-pip:
+  ubuntu:
+    pip:
+      depends: [python-matplotlib, python-scipy, python-numpy]
+      packages: [filterpy]
 python-fixtures:
   debian: [python-fixtures]
   fedora: [python-fixtures]
